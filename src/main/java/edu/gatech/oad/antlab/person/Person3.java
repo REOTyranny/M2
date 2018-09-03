@@ -43,13 +43,11 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-		/*StringBuilder reverse = new StringBuilder();
-		char letter;
+		String reverse;
 		for ( int i = input.length() - 1; i >= 0; i--)
 		{
-			letter = input.charAt(i);
-			reverse.setChartAt(i,letter);
+			reverse = reverse + input.charAt(i);
 		}
-	  return reverse; */
+	  return reverse;
 	}
 }
