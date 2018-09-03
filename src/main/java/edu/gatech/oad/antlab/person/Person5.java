@@ -29,9 +29,17 @@ public class Person5 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
+  	
+  	private String rotateLeft(String input) {
+  	    return input.substring(1) + input.charAt(0);
+    }
+
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+        final int ROTATIONS = 2;
+        for (int i = 0; i < ROTATIONS; i++) {
+            input = rotateLeft(input);
+        }
+        return input;
 	}
 	
 	/**
